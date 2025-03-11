@@ -45,5 +45,9 @@ int main()
         std::cout << "daño recibido: "<< daño<<std::endl;
         std::cout << "escudo restante: " <<escudo<< std::endl;
     }
-     
+     //si ninguna de las condiciones anteriores se cumplen//
+    else{
+    std::cout << "daño recibido: "<< daño<<std::endl;
+    std::cout << "escudo restante: " <<escudo-daño<< std::endl;
+    }    
 }
